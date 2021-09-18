@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Oswald:wght@300;383&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header {
+    padding: 1em;
+    text-align: center;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #5FAB8F;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 40%;
+    height: auto;
+    margin: .5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+}
+
+ul {
+   list-style: none;
+   font-size: 1.5em;
+}
+
+#links {
+    background: #fff;
+    padding: .5em;
+    text-align: center;
+    color: #6B2737;
+}
+
+h2 {
+    text-align: center;
+    color: #6B2737;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    margin: 2em;
+    text-align: center;
+    
+}
