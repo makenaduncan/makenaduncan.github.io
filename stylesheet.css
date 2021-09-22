@@ -1,10 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Oswald:wght@300;383&display=swap');
+/* 1. Inports (fonts)
+2. Mobile and General
+2a. General 
+2b. Mobile 
+3. Midsize (don't usually need this)
+4. Larger 
+5. Really Large (Don't always need)*/
+
+/* 1. Imports */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* 2a. General */
+a {
+    color: #000000;
+}
+
+ul {
+   list-style: none;
+   font-size: 1.5em;
+}
+
+footer {
+    margin: 2em;
+    text-align: center;
+}
+/* 2b. Mobile */
+
+/* 3. Midsize */
+
+/* 4. Larger */
 
 header {
     padding: 1em;
     text-align: center;
-    /* font-family: 'Oswald', sans-serif; */
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -21,11 +48,6 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
 }
 
-ul {
-   list-style: none;
-   font-size: 1.5em;
-}
-
 #links {
     background: #fff;
     padding: .5em;
@@ -39,11 +61,5 @@ h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
-footer {
-    margin: 2em;
-    text-align: center;
-}
 
-a {
-    color: #000000;
-}
+
