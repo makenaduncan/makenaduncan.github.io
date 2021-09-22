@@ -25,37 +25,21 @@ body {
     padding: 0px;
 }
 
-footer {
-    margin: 2em;
-    text-align: center;
-}
-/* 2b. Mobile */
-
-/* 3. Midsize */
-@media (min-width: 32.5em)
-
-/* 4. Larger */
-
-header {
-    padding: 1em;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-
-img {
-    width: 40%;
-    height: auto;
-    margin: .5em;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
-}
-
 #links {
     background: #fff;
     padding: .5em;
     text-align: center;
     color: #6B2737;
+}
+footer {
+    margin: 2em;
+    text-align: center;
+}
+/* 2b. Mobile */
+header {
+    padding: 1em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -63,6 +47,13 @@ h2 {
     color: #6B2737;
     font-family: 'Open Sans', sans-serif;
 }
+img {
+    width: 40%;
+    height: auto;
+    margin: .5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+}
+/* 3. Midsize */
+@media (min-width: 32.5em)
 
-
-
+/* 4. Larger */
