@@ -19,6 +19,12 @@ ul {
    font-size: 1.5em;
 }
 
+body {
+    background: #5FAB8F;
+    margin: 0px;
+    padding: 0px;
+}
+
 footer {
     margin: 2em;
     text-align: center;
@@ -26,6 +32,7 @@ footer {
 /* 2b. Mobile */
 
 /* 3. Midsize */
+@media (min-width: 32.5em)
 
 /* 4. Larger */
 
@@ -35,11 +42,7 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    background: #5FAB8F;
-    margin: 0px;
-    padding: 0px;
-}
+
 
 img {
     width: 40%;
