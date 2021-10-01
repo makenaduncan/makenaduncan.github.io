@@ -54,8 +54,11 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
 }
 /* 3. Midsize */
-@media (min-width: 32.5em) {
-    
+@media only screen and (min-width: 20em) {
+    #portal_image {
+     /* margin-right: .5em;   */
+     text-align: right;
+    }
 }
 
 /* Larger */
