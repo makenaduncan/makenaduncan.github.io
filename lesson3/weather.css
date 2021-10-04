@@ -4,12 +4,18 @@
 
 /* General */
 
-h1 {
+/* h1 {
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 
 h3 {
     font-family: 'Oswald', sans-serif;
+    text-align: center;
+} */
+
+h1, h2, h3 {
+    text-align: center;
 }
 
 header {
@@ -43,6 +49,26 @@ ul {
     background-color: #5D8369;
     font-family: 'Open Sans', sans-serif;
     color: #233D58;
+}
+
+#target-audience {
+    text-align: left;
+    margin: 0 2em;
+}
+
+#persona-1 {
+    text-align: left;
+    margin: 0 2em;
+}
+
+#persona-2 {
+    text-align: left;
+    margin: 0 2em;
+}
+
+.scenarios {
+    text-align: left;
+    margin: 0 2em;
 }
 
 .section-box {
@@ -104,7 +130,8 @@ footer {
 }
 
 .paragraph-1 {
-    margin: 0 1em;
+    margin: 0 2em;
+    text-align: left;
 }
 
 #persona-1-image {
