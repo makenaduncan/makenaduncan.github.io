@@ -13,10 +13,11 @@ html {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     margin-top: 0;
+    margin-left: 100px;
 }
 
 body {
@@ -27,12 +28,16 @@ h2 {
     text-align: center;
 }
 
-nav {
+/* nav {
     background-color: lightgray;
-}
+} */
 
 header {
     display: flex;
+}
+
+.header-words {
+    text-align: right;
 }
 
 ul{
@@ -73,6 +78,14 @@ footer {
 
 /* Mobile */
 @media screen and (max-width: 32.5em){
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        margin-top: 0;
+    }
+
     .navigation{
         display: block;
     }
