@@ -1,0 +1,315 @@
+/* General */
+html {
+    background-color: #5D8369;
+}
+
+body {
+    text-align: center;
+    background: #e8e8e8;
+    color: #233D58;
+}
+
+.jumbotron {
+    padding: 2em;
+    margin: 30px auto;
+    margin-left: 95px;
+    margin-right: 95px;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Oswald", "sans-serif";
+}
+
+#header-logo {
+    padding-top: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    padding-bottom: 1em;
+}
+
+header img {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#motto {
+    margin: 0;
+}
+
+.social-media {
+    width: 50px;
+    height: auto;
+}
+
+.article-image {
+    width: 300px;
+    height: auto;
+}
+
+#weather-summary {
+    background-color: #fff;
+}
+
+/* Mobile */
+.box-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border: 1px solid lightgrey;
+}
+
+.hero-image {
+    max-width: 100%;
+    max-width: 90%;
+    margin-bottom: 1em;
+}
+
+.article-image {
+    max-width: 80%;
+    margin: 1em;
+}
+
+.article-heading {
+    text-align: left;
+    font-size: 1.3em;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.article-text {
+    text-align: left;
+    padding: 1rem;
+}
+
+.article-link:link {
+    color: #000000;
+}
+
+.article-link:visited {
+    color: #000000;
+}
+
+.article-link:hover {
+    color: #000000;
+}
+
+.box-container-heading {
+    padding: .5em;
+    letter-spacing: .04em;
+    color: #233D58;
+    margin: 0;
+    border-color: #e8e8e8;
+}
+
+.info-box-text {
+    line-height: 1.4em;
+    padding: 1.2em;
+    margin: 0;
+}
+
+.container-paragraph {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: left;
+}
+
+#info-box-link {
+    text-decoration: underline;
+    color: #233D53;
+    margin: 0;
+}
+
+#five-day-forecast, #five-day-box {
+    display: none;
+}
+
+.forecast-box {
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid lightgrey;
+    max-width: 7rem;
+    margin: 1em;
+}
+
+.forecast-image {
+    padding: 0;
+    margin: 0;
+}
+
+.forecast-day, .forecast-info {
+    margin: .5em;
+}
+
+#weather-summary {
+    display: block;
+}
+
+.weather-icon {
+    margin-bottom: 1em;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #5D8369;
+}
+
+#hamburger-icon {
+    padding-right: .5em;
+}
+
+ul {
+    margin: 0;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: .5em;
+	text-align: center;
+	text-decoration: none;
+    font-size: 1.3em;
+	color: #fff;
+	transition: 300ms;
+    margin-bottom: .3em;
+}
+
+li:hover {
+    background-color: #FFDB58;
+}
+
+.responsive li {
+	display: block;
+}
+
+.pancake {
+    padding: .5em;
+    background: #FFDB58;
+    color: #233D53;
+}
+
+.js-required p {
+    margin: 0;
+    padding: .5em;
+    font-size: .8em;
+}
+
+footer {
+    margin-top: 10em;
+    background: white;
+    padding: .2em;
+    font-size: .9em;
+}
+
+@media (max-width: 55em){
+    #map {
+    visibility: hidden;
+    display: none;
+    }
+}
+
+
+/* Large Screen */
+@media (min-width: 55em) {
+    .box-container {
+        max-width: 1000px;
+    }
+
+    .navigation {
+		display: flex;
+        justify-content: center;
+	}
+
+	.navigation li {
+		display: block;
+	}
+
+	.navigation a {
+		text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+    .active-page {
+        border-top: 2px solid #233D58;
+        border-bottom: 2px solid #233D58;
+    }
+
+    #five-day-forecast {
+        display: flex;
+        justify-content: center;
+        border: 1px solid lightgrey;
+    }
+
+    #five-day-box {
+        display: block;
+    }
+
+    #weather-summary {
+        position: relative;
+        background-color: #fff;
+    }
+
+    #summary-content {
+        position: absolute;
+        top: .5em;
+        left: .5em;
+        width: 30%;
+        height: auto;
+        padding: .5em;
+        background-color: #fff;
+        margin-top: 15px;
+        margin-left: 100px;
+    }
+
+    .article-heading {
+        margin-top: 20px;
+    }
+
+    .article-image {
+        width: 25%;
+        height: auto;
+        float: right;
+        margin-top: 15px;
+        margin-right: 50px;
+        margin-bottom: 5px;
+    }
+
+    #map {
+        width: 20%;
+        height: auto;
+        border: 1px solid lightgrey;
+        float: left;
+        margin-top: 5px;
+        margin-left: 50px;
+        margin-bottom: 5px;
+    }
+
+    .contact-info {
+        text-align: center; 
+    }
+}
