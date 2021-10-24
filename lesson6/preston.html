@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="preston.css"/>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="shortcut icon" href="../weather-site-plan/images/favicon.png?v=2"/>
+    <title>Preston Weather</title>
+</head>
+
+<body class="jumbotron">
+    <header>
+        <div class="js-required"><p>Javascript is required to enhance features of this page</p></div>
+        <div class="pancake"></div>
+
+        <div class="header-content">
+            <img id="header-logo" src="../lesson4/logo.png" alt="Mist header logo">
+            <h1 style="padding: 10px;">Silver Lining Weather</h1>
+            <p id="motto">Bringing hope to your day</p>
+        </div>
+    </header>
+
+    <nav class="main-nav" id="main-navigation">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()" class="menu-button">&#9776; Menu</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li class="active-page"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Preston, Idaho</h1>
+        <div id="weather-summary"> 
+            <picture id = "hero-image">
+                <source media="screen and (min-width: 1200px)" srcset="hero-950w.jpg">
+                <source media="screen and (min-width: 800px)" srcset="hero-700w.jpg">
+                <img src="hero-350w.jpg" alt="Picture of Preston, Idaho">
+            </picture>
+            <div id="summary-content">
+                <h2 class="box-container-heading">Weather Summary</h2>
+                <ul id = "weather_summ">
+                    <li>Currently: <span id = "climate">Rainy</span></li>
+                    <li>High: <span id="curTemp">67</span>ºF</li>
+                    <li>Windchill: <span id = "windchill"></span></li>
+                    <li>Humidity: <span id = "humidity">40</span>%</li>
+                    <li>Wind Speed: <span id = "curSpeed">12</span>mph</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div id="five-day-box" class="forcast-box">
+            <h2 class="box-container-heading">5 Day Forecast</h2>
+            <div id="five-day-forecast">
+                <div class="forecast-box">
+                    <img class="forecast-icon" src="../lesson5/forecast-icon.png" alt="forecast image">
+                    <h4 class="forecast-day">Mon</h4>
+                    <p class="forecast-info">67&deg;</p>
+                </div>
+                <div class="forecast-box">
+                    <img class="forecast-icon" src="../lesson5/forecast-icon.png" alt="forecast image">
+                    <h4 class="forecast-day">Tue</h4>
+                    <p class="forecast-info">67&deg;</p>
+                </div>
+                <div class="forecast-box">
+                    <img class="forecast-icon" src="../lesson5/forecast-icon.png" alt="forecast image">
+                    <h4 class="forecast-day">Wed</h4>
+                    <p class="forecast-info">67&deg;</p>
+                </div>
+                <div class="forecast-box">
+                    <img class="forecast-icon" src="../lesson5/forecast-icon.png" alt="forecast image">
+                    <h4 class="forecast-day">Thu</h4>
+                    <p class="forecast-info">67&deg;</p>
+                </div>
+                <div class="forecast-box">
+                    <img class="forecast-icon" src="../lesson5/forecast-icon.png" alt="forecast image">
+                    <h4 class="forecast-day">Fri</h4>
+                    <p class="forecast-info">67&deg;</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="box-container">
+            <img class="article-image" src="article-img.jpg" alt="article image">
+            <h3 class="article-heading">Article Title</h3>
+            <p class="article-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem aut, ipsa cumque fugit repudiandae ex reprehenderit eos molestias necessitatibus minus alias? In obcaecati necessitatibus accusantium eveniet explicabo? Libero, veniam nobis.</p>
+            <a class="article-link" href="#">Continue to full article</a>
+        </div>
+        <br>
+        <div class="box-container">
+            <img id="map" src="map.jpg" alt="map">
+            <h3 class="box-container-heading">Contact Us</h3>
+            <p class="contact-info">30 N 1st E<br>Preston, ID<br><br>000-000-0000<br>slweather@email.com</p>
+            <a href="https://www.facebook.com/"><img class="social-media" src="../lesson5/fb-icon.png" alt="facebook icon"></a>
+        </div>
+    </main>
+
+    <footer>
+        <p id="current-year"></p>
+        <p id="last-updated"></p>
+    </footer>
+
+    <script src="preston.js"></script>
+    <script src="preston2.js"></script>
+    <script src="windchill.js"></script>
+</body>
+</html>
