@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="gallery.css"/>
+    <link rel="stylesheet" href="../normalize.css">
+    <title>Weather Gallery</title>
+</head>
+
+<body class="jumbotron">
+    <header>
+        <noscript>Javascript is required to enhance features of this page</noscript> 
+        <div class="pancake"></div>
+
+        <div class="header-content">
+            <img id="header-logo" src="../lesson4/logo.png" alt="Mist header logo">
+            <h1 style="padding: 10px;">Silver Lining Weather</h1>
+            <p id="motto">Bringing hope to your day</p>
+        </div>
+    </header>
+
+    <nav class="main-nav" id="main-navigation">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()" class="menu-button">&#9776; Menu</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../lesson6/preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="active-page"><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <br>
+        <div class="gallery-pics">
+            <div class="weather-pic">
+                <img src="placeholder.jpg" data-src="images/chance-rain.jpg"
+                alt="partly cloudy with a chance of rain picture of farm">
+                <p>Partly cloudy with a chance of rain</p>
+            </div>
+            <div class="weather-pic">
+                <img src="placeholder.jpg" data-src="images/lightning.jpg"
+                alt="lightening storm over the farms of preston">
+                <p>lightening storm over the farms of Preston, Idaho</p>
+            </div>
+            <div class="weather-pic">
+                <img src="placeholder.jpg" data-src="images/partly-cloudy.jpg"
+                alt="picture of the sky with several clouds">
+                <p>Partly cloudy skies</p>
+            </div>
+            <div class="weather-pic">
+                <img src="placeholder.jpg" data-src="images/rainbow.jpg"
+                alt="picture of rainbow amidst a rain storm">
+                <p>Rainbow amidst the rain</p>
+            </div>
+            <div class="weather-pic">
+                <img src="placeholder.jpg" data-src="images/rainy.jpg"
+                alt="rain clouds with downpour in the distance over the idaho plane">
+                <p>rain clouds passing with a massive downpour in the distance</p>
+            </div>
+            <div class="weather-pic">
+                <img src="placeholder.jpg" data-src="images/sunny.jpg"
+                alt="sunny day with the backdrop of fields and a focus on an old barn">
+                <p>Hot day with nothing but clear skies and sun</p>
+            </div>
+            <div class="weather-pic">
+                <img src="placeholder.jpg" data-src="images/wildfire.jpg"
+                alt="wildfire">
+                <p>Wildfire due to the dry air and hot weather conditions</p>
+            </div>
+            <div class="weather-pic">
+                <img src="placeholder.jpg" data-src="images/windy.jpg"
+                alt="wind blowing the crops">
+                <p>Windy day</p>
+            </div>
+            <div class="weather-pic">
+                <img src="placeholder.jpg" data-src="images/winter.jpg"
+                alt="sunny winter day with the snake river">
+                <p>Winter in Fish Haven</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p id="current-year"></p>
+        <p id="last-updated"></p>
+    </footer>
+
+    <script src="gallery.js"></script>
+    <script src="lazyload.js"></script>
+    
+</body>
+</html>

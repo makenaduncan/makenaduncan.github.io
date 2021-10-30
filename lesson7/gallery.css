@@ -1,0 +1,164 @@
+/* General */
+html {
+    background-color: #5D8369;
+}
+
+body {
+    text-align: center;
+    background: #e8e8e8;
+    color: #233D58;
+}
+
+.jumbotron {
+    padding: 2em;
+    margin: 30px auto;
+    margin-left: 95px;
+    margin-right: 95px;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Oswald", "sans-serif";
+}
+
+li {
+    list-style: none;
+}
+
+.gallery-pics {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-pics img {
+    max-width: 100%;
+	max-height: 100%;
+	border-width: 2px;
+}
+
+.weather-pic {
+	box-shadow: 2px 2px 2px #000;
+	border-style: solid;
+    border-width: 2px;
+    border-color: #233D58;
+	margin-bottom: 15px;
+	background-color: #FFDB58;
+	max-width: 525px;
+}
+
+/* Mobile */
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #5D8369;
+}
+
+#hamburger-icon {
+    padding-right: .5em;
+}
+
+ul {
+    margin: 0;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: .5em;
+	text-align: center;
+	text-decoration: none;
+    font-size: 1.3em;
+	color: #000;
+	transition: 300ms;
+    margin-bottom: .3em;
+}
+
+li:hover {
+    background-color: #FFDB58;
+}
+
+.responsive li {
+	display: block;
+}
+
+footer {
+    margin-top: 10em;
+    background: white;
+    padding: .2em;
+    font-size: .9em;
+}
+
+@media (max-width: 55em){
+    .active-page {
+        border-top: 2px solid #233D58;
+        border-bottom: 2px solid #233D58;
+    }
+    .jumbotron {
+        padding: 2em;
+        margin: 30px auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #FFFFFF;
+    }
+}
+
+/* Medium */
+@media only screen and (min-width:625px) {
+	.gallery-pics {
+		display: grid;
+		grid-template-columns: 45% 45%;
+		gap: 1em;
+	}
+}
+
+
+/* Large */
+
+@media (min-width: 1200px) {
+
+    .navigation {
+		display: flex;
+        justify-content: center;
+	}
+
+	.navigation li {
+		display: block;
+	}
+
+	.navigation a {
+		text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+    .active-page {
+        border-top: 2px solid #233D58;
+        border-bottom: 2px solid #233D58;
+    }
+
+    .gallery-pics {
+		display: grid;
+		grid-template-columns: 30% 30% 30%;
+		gap: 3em;
+    }
+    
+    .weather-pic:hover {
+        box-shadow: 5px 5px 20px #333;
+    }
+}
