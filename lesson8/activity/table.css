@@ -1,0 +1,29 @@
+/* The font-family is Ubuntu, sans-serif. */
+/* The color scheme includes #e7f0ed, #e7ffed (data rows) and #628ca6, #7fb9c2 along with standard white and black */
+/* Use a maximum of one class or id selector */
+/* Use one instance of the first-child or nth:child() pseudo classes */
+/* Black Friday is italisized */
+
+thead, tfoot {
+    background-color: #7fb9c2;
+}
+
+tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+tbody {
+    background-color: #e7f0ed;
+}
+
+tbody>tr:first-child {
+    background-color: #628ca6;
+}
+
+.shade {
+    background-color: #628ca6;
+}
+
+td {
+    text-align: center;
+}
