@@ -33,7 +33,7 @@ fieldset {
     font-size: 20px;
 }
 .required {
-    color: red;
+    color: #8B0000;
 }
 
 /* Mobile */
