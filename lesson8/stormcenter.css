@@ -1,0 +1,179 @@
+/* General */
+html {
+    background-color: #5D8369;
+}
+
+body {
+    text-align: center;
+    background: #e8e8e8;
+    color: #233D58;
+}
+
+.jumbotron {
+    padding: 2em;
+    margin: 30px auto;
+    margin-left: 95px;
+    margin-right: 95px;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Oswald", "sans-serif";
+}
+
+li {
+    list-style: none;
+}
+
+fieldset {
+    box-sizing: border-box; /* Automatically sizes the box */
+}
+ legend {
+    text-align: left;
+    font-size: 20px;
+}
+.required {
+    color: red;
+}
+
+/* Mobile */
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #5D8369;
+}
+
+#hamburger-icon {
+    padding-right: .5em;
+}
+
+ul {
+    margin: 0;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: .5em;
+	text-align: center;
+	text-decoration: none;
+    font-size: 1.3em;
+	color: #000;
+	transition: 300ms;
+    margin-bottom: .3em;
+}
+
+li:hover {
+    background-color: #FFDB58;
+}
+
+.responsive li {
+	display: block;
+}
+
+footer {
+    margin-top: 10em;
+    background: white;
+    padding: .2em;
+    font-size: .9em;
+}
+
+@media (max-width: 55em){
+    .active-page {
+        border-top: 2px solid #233D58;
+        border-bottom: 2px solid #233D58;
+    }
+    .jumbotron {
+        padding: 2em;
+        margin: 30px auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #FFFFFF;
+    }
+
+    fieldset {
+        text-align: left;
+        width: 90%;
+    }
+    .form-content {
+        margin: 25px;
+    }
+    .comments {
+        padding-left: 24px;
+    }
+}
+
+/* Medium */
+@media only screen and (min-width:625px) {
+	fieldset {
+        text-align: left;
+        width: 90%;
+        margin-left: 30px;
+    }
+    .form-content {
+        padding-left: 100px;
+        margin: 25px;
+    }
+    .comments {
+        padding-left: 180px;
+    }
+}
+
+
+/* Large */
+
+@media (min-width: 1200px) {
+
+    .navigation {
+		display: flex;
+        justify-content: center;
+	}
+
+	.navigation li {
+		display: block;
+	}
+
+	.navigation a {
+		text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+    .active-page {
+        border-top: 2px solid #233D58;
+        border-bottom: 2px solid #233D58;
+    }
+
+    fieldset {
+        text-align: Left;
+        margin-bottom: 15px;
+        width: 90%; /* Width of the box relative to the page */
+        margin-left: 45px; /*distance from the jumbotron to the box. Needs to be adjusted based off of screen-size */
+    }
+
+    .form-content {
+        padding-left: 255px;
+        margin: 25px;
+    }
+
+    .comments {
+        padding-left: 350px;
+    }
+    
+}
