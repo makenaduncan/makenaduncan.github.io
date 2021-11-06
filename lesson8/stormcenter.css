@@ -37,6 +37,11 @@ fieldset {
     color: #EE4B2B;
 }
 
+.thanks {
+    margin-top: 100px;
+    font-size: 25px;
+}
+
 /* Mobile */
 nav {
 	margin: 0 auto;
