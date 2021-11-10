@@ -34,7 +34,7 @@ fieldset {
 }
 .required {
     font-size: 20px;
-    color: #EE4B2B;
+    /* color: #EE4B2B; */
 }
 
 .thanks {
