@@ -1,0 +1,258 @@
+/* General */
+html {
+    background-color: #5D8369;
+}
+
+body {
+    text-align: center;
+    background: #e8e8e8;
+    color: #233D58;
+}
+
+.jumbotron {
+    padding: 2em;
+    margin: 30px auto;
+    margin-left: 95px;
+    margin-right: 95px;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Oswald", "sans-serif";
+}
+
+li {
+    list-style: none;
+}
+
+/* Mobile */
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #5D8369;
+}
+
+#hamburger-icon {
+    padding-right: .5em;
+}
+
+ul {
+    margin: 0;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: .5em;
+	text-align: center;
+	text-decoration: none;
+    font-size: 1.3em;
+	color: #000;
+	transition: 300ms;
+    margin-bottom: .3em;
+}
+
+li:hover {
+    background-color: #FFDB58;
+}
+
+.responsive li {
+	display: block;
+}
+
+footer {
+    margin-top: 10em;
+    background: white;
+    padding: .2em;
+    font-size: .9em;
+}
+
+footer p a {
+    color: #000;
+}
+
+div.towns {
+    background-color: #d0efb1;
+    margin: 1rem;
+    padding: 0.75rem;
+  }
+  
+  div.town-cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: center;
+  }
+  
+  div.town-cards section {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    width: 97%;
+    margin: 0.5rem 0;
+    border: 5px solid ;
+  }
+  
+  div.town-cards section div.town-info {
+    margin: 1rem;
+  }
+  
+  div.town-cards section h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  div.town-cards section p {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div.town-cards section p.motto {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  div.town-cards section div.town-image {
+    display: grid;
+  }
+  
+  div.town-cards section div.town-image img {
+    display: grid;
+    align-self: end;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 55em){
+    .active-page {
+        border-top: 2px solid #233D58;
+        border-bottom: 2px solid #233D58;
+    }
+    .jumbotron {
+        padding: 2em;
+        margin: 30px auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #FFFFFF;
+    }
+}
+
+/* Medium */
+@media only screen and (min-width:625px) {
+    div.towns {
+        padding: 1rem;
+    }
+
+    div.town-cards section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.town-cards section div.town-data {
+        grid-area: a;
+    } 
+
+    div.town-cards section div.town-image {
+        grid-area: b;
+    } 
+
+    div.town-cards section {
+        grid-template-areas: 
+        "a b";
+    } 
+
+    div.town-cards section:nth-child(2n) {
+        grid-template-areas: 
+        "b a";
+    } 
+
+    div.town-cards section div.town-info {
+        align-self: center;
+        margin: 0.5rem 1rem;
+    }
+
+    div.town-cards section h3 {
+        font-size: 1.5rem;
+    }
+
+    div.town-cards section p {
+        font-size: 0.9rem;
+    }
+
+    div.town-cards section div.town-image img {
+        width: 100%; 
+        align-self: center;
+    }
+}
+
+
+/* Large */
+@media (min-width: 1200px) {
+    .navigation {
+		display: flex;
+        justify-content: center;
+	}
+
+	.navigation li {
+		display: block;
+	}
+
+	.navigation a {
+		text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+    .active-page {
+        border-top: 2px solid #233D58;
+        border-bottom: 2px solid #233D58;
+    }
+
+    div.towns {
+        margin: 2rem 0;
+    }
+
+    div.town-cards {
+        margin-top: 50px;
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-column-gap: 0.75rem;
+    }
+
+    div.town-cards section {
+        display: block;
+    } 
+
+    div.town-cards section div.town-image img {
+        width: 80%; 
+        padding-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    div.town-cards section div.town-info {
+        margin: 1rem 2.5rem;
+    }
+
+    div.town-cards section p.motto {
+        height: 50px;
+    }
+}
