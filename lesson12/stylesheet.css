@@ -96,11 +96,11 @@ button:hover, #submit:hover {
   }
   
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #D74E09;
   }
 
   .prev2:hover, .next2:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #D74E09;
   }
   
   .numbertext {
@@ -148,7 +148,7 @@ button:hover, #submit:hover {
     animation-duration: 1.5s;
   }
   
-  @-webkit-keyframes fade {
+  /* @-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
   }
@@ -156,7 +156,7 @@ button:hover, #submit:hover {
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
-  }
+  } */
 
 fieldset {
   box-sizing: border-box;
