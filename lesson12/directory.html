@@ -10,9 +10,6 @@
     <title>IF Chamber of Commerce</title>
 </head>
 <body>
-    <header>
-        
-    </header>
     <nav class="main-nav" id="main-navigation">
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()" class="menu-button">&#9776; Menu</a></li>
@@ -27,15 +24,20 @@
     <main>
         <h2>Local Businesses Directory</h2>
         <div class="buttons">
-            <li><a href="#" class="list" class="fa fa-list">&#9776; </a></li>
-            <li><a href="#" class="grid" class="fa fa-th-large">&#9783; </a></li>
+            <li><a href="#" class="list" class="fa fa-list"> &#9776; List <br></a></li> <br>
+            <li><a href="#" class="grid" class="fa fa-th-large"> &#9783; Grid </a></li>
         </div>
         <div class="cards" id="cards"></div>
     </main>
     <footer>
-        <p>208-523-1010 | <a class="attribution" href="attribution.html">Attribution Page</a></p> | last updated: 
+        <p>208-523-1010 | <a class="attribution" href="attribution.html">Attribution Page</a></p> <p class="last-updated" id="last-updated"></p>
+        <div class="right">
+            <a href="https://www.facebook.com/"><img class="social-media" src="./images/fb2.png" alt="facebook icon"></a>
+            <a href="https://www.instagram.com/"><img class="social-media" src="./images/insta2.png" alt="instagram icon"></a>
+        </div>
     </footer>
     <script src="main.js"></script>
+    <script src="update.js"></script>
     <script src="directory.js"></script>
 </body>
 </html>
