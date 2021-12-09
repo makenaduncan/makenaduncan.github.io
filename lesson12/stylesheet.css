@@ -305,7 +305,7 @@ footer {
 nav {
 	margin: 0 auto;
 	max-width: 100%;
-	background-color: #5D8369;
+	background-color: #073b4c;
 }
 
 #hamburger-icon {
@@ -335,13 +335,13 @@ ul {
 	text-align: center;
 	text-decoration: none;
     font-size: 1.3em;
-	color: #000;
+	color: #fff;
 	transition: 300ms;
     margin-bottom: .3em;
 }
 
 li:hover {
-    background-color: #FFDB58;
+    background-color: #44A1A0;
 }
 
 .responsive li {
@@ -372,7 +372,7 @@ li:hover {
   .cards.list {
     grid-template-columns: 1fr;
   }
-/* LARGE */
+/* LARGE AND WIDE*/
 @media (min-width: 55em) {
     .navigation {
 		  display: flex;
@@ -399,5 +399,3 @@ li:hover {
     width: 90%; /* Width of the box relative to the page */
   }
 }
-
-/* EXTRA LARGE */
