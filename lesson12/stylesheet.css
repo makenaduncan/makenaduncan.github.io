@@ -38,14 +38,14 @@ button:hover, #submit:hover {
   background: #bbb;
   color: #073b4c;
   transition: all 300ms;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
-  }
+}
 
 .slideshow-container-2 {
   max-width: 300px;
@@ -53,16 +53,16 @@ button:hover, #submit:hover {
   margin: auto;
 }
   
-  .mySlides {
-    display: none;
-  }
+.mySlides {
+  display: none;
+}
 
-  .town-carousel {
-    display: none;
-  }
+.town-carousel {
+   display: none;
+}
   
   .prev, .next {
-    cursor: pointer;
+    /* cursor: pointer; */
     position: absolute;
     top: 50%;
     width: auto;
@@ -77,7 +77,7 @@ button:hover, #submit:hover {
   }
 
   .prev2, .next2 {
-    cursor: pointer;
+    /* cursor: pointer; */
     position: absolute;
     top: 50%;
     width: auto;
@@ -119,7 +119,7 @@ button:hover, #submit:hover {
   }
   
   .dot {
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -130,7 +130,7 @@ button:hover, #submit:hover {
   }
 
   .circle {
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -377,6 +377,7 @@ li:hover {
   .cards.list {
     grid-template-columns: 1fr;
   }
+}
 /* LARGE AND WIDE*/
 @media (min-width: 55em) {
     .navigation {
