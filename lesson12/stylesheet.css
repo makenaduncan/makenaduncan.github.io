@@ -364,6 +364,16 @@ footer {
   margin-bottom: auto;
 }
 
+.hero-image {
+  width:100%;
+  position:relative;
+  padding: 5px;
+}
+
+.thanks-header {
+  text-align: center;
+}
+
 /* SMALL */
 
 /* MEDIUM */
