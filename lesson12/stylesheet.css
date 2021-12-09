@@ -97,8 +97,8 @@ button:hover, #submit:hover {
   }
   
   .prev:hover, .next:hover {
-    background-color: #D74E09;
-    color: #fff;
+    background-color: #44A1A0;
+    color: #717171;
   }
 
   .prev2:hover, .next2:hover {
@@ -268,9 +268,6 @@ footer {
   color: #fff;
 }
 
-.buttons div > * {
-  pointer-events: none;
-}
 .cards {
     display: block;
     width: 100%;
@@ -278,7 +275,7 @@ footer {
 
 .card {
   background-color: #44A1A0;
-  color: #fff;
+  color: #000;
   margin-bottom: 25px;
   border: 1px solid #073b4c;
   text-align: center;
