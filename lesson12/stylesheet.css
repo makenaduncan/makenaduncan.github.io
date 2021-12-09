@@ -406,6 +406,12 @@ li:hover {
   .cards.list {
     grid-template-columns: 1fr;
   }
+
+  .side-by-side {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
 }
 /* LARGE AND WIDE*/
 @media (min-width: 55em) {
