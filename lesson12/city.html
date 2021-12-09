@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>IF Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav class="main-nav" id="main-navigation">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()" class="menu-button">&#9776; Menu</a></li>
+            <img class="nav-logo" src="./images/logo.jpg" alt="navigation bar logo">
+            <li><a href="index.html">Home</a></li>
+            <li class="active-page"><a href="city.html">Idaho Falls</a></li>
+            <li><a href="join.html">Membership</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <picture id = "hero-image">
+            <source media="screen and (min-width: 1350px)" srcset="./images/ifalls1100w.jpg">
+            <source media="screen and (min-width: 1200px)" srcset="./images/ifalls950w.jpg">
+            <source media="screen and (min-width: 800px)" srcset="./images/ifalls700w.jpg">
+            <img src="./images/ifalls350w.jpg" alt="Picture of Preston, Idaho">
+        </picture>
+        <h2> Idaho Falls </h2>
+        <div class="city-article">
+            <p><b>POPULATION: </b>61,459 (2019 Census)</p>
+            <p><b>ELEVATION: </b>4,744ft</p>
+            <img class="article-image" src="./images/if5.jpeg">
+            <p class= "article-text" >Idaho Falls was founded in 1864. It is built around a portion of the Snake River.
+               This provides the city with gorgeous scenery along what is known as "The Green Belt".
+                It's location provides residents and visitors with close access to the Idaho Falls Zoo, 
+                Bear World and Yellowstone National Park. 
+            </p>
+            <p>
+                Idaho Falls is home to the Chuckars (a minor league baseball team) and the famous ice 
+                cream shop known as Reed's Dairy. For more information on the history, check out Downtown's 
+                Museum of Idaho. 
+            </p>
+        </div>
+        
+        <h2>Current Events</h2>
+        <p><b>DECEMBER</b></p>
+        <p><b>09 - </b>Chamber Blood Drive: 1:00-6:00 PM</p>
+        <p><b>12 - </b>1st Annual Yule Ball: Masquerade: 6:00-11:00 PM</p>
+        <p><b>15 - </b>Hope Lunch</p>
+        <p><b>17 - </b>Bucked Up Ribbon Cutting: 12:00-1:00 PM</p>
+        <p><b>18 - </b>Downtown Horse Drawn Trolly Rides: 1:00PM-12:00AM</p>
+    </main>
+    <footer>
+        <p>208-523-1010 | <a class="attribution" href="attribution.html">Attribution Page</a></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

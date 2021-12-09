@@ -1,0 +1,46 @@
+{
+    "businesses": [
+      {
+        "name": "Stockman's Resturant",
+        "photo": "./images/stockmans.jpg",
+        "contact": "(208) 552-6500",
+        "website": "https://www.stockmansrestaurant.com/"
+      },
+      {
+        "name": "Smitty's Pancake & Steak House",
+        "photo": "./images/smitty.jpg",
+        "contact": "(208) 523-6450",
+        "website": "https://www.smittys-if.com/"
+      },
+      {
+        "name": "Teton Toyota",
+        "photo": "./images/tetontoyota.jpg",
+        "contact": "(208) 522-2911",
+        "website": "https://www.tetontoyota.com/"
+      },
+      {
+        "name": "Idaho Falls Community Hospital",
+        "photo": "null",
+        "contact": "(208) 528-1000",
+        "website": "https://www.idahofallscommunityhospital.com/"
+      },
+      {
+        "name": "Fairfield Inn & Suites",
+        "photo": "null",
+        "contact": "(208) 552-7378",
+        "website": "https://www.marriott.com/hotels/travel/idafi-fairfield-inn-and-suites-idaho-falls/"
+      },
+      {
+        "name": "Grand Teton Mall",
+        "photo": "null",
+        "contact": "(208) 525-8315",
+        "website": "https://www.grandtetonmall.com/en.html"
+      },
+      {
+        "name": "IJump LLC",
+        "photo": "./images/ijump.jpg",
+        "contact": "(208) 881-5108",
+        "website": "https://www.ijumpidaho.com/"
+      }
+    ]  
+  }

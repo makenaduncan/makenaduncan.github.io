@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>IF Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav class="main-nav" id="main-navigation">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()" class="menu-button">&#9776; Menu</a></li>
+            <img class="nav-logo" src="./images/logo.jpg" alt="navigation bar logo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city.html">Idaho Falls</a></li>
+            <li class="active-page"><a href="join.html">Membership</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Membership Application</h2>
+        <p>
+            Welcome to the Greater Idaho Falls Chamber of Commerce Membership Application page. 
+            We consider it an honor that your organization is considering being a Chamber Member. 
+            Please fill out the required fields on the Membership Application below. If at any time 
+            you have questions concerning membership, please contact Terra Thueson, our Membership 
+            Coordinator, at 208-523-1010 Opt. 6 or send an email to membership@idahofallschamber.com. 
+            To make Chamber Membership affordable for any size business, we base our dues on your employee 
+            count. Please note that 2 part time employees equal 1 full-time employee (FTE). Additionally, your 
+            total New Membership amount includes a $50 one-time account activation charge.
+        </p>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <br>
+                <div class="form-content">
+                    <label>First Name <span class="required"> * </span><input type="text" name="first" pattern="[A-Za-z]{4,}" required></label>
+                </div>
+                <br>
+                <div class="form-content">
+                    <label>Last Name <span class="required"> * </span><input type="text" name="last" pattern="[A-Za-z]{4,}" required></label>
+                </div>
+                <br>
+                <div class="form-content">
+                    <label>Title  <span><input type="text" name="title" pattern="[A-Za-z]"></span></label>
+                </div>
+                <br>
+                <div class="form-content">
+                    <label>Email  <input type="email" name="email" placeholder="example@email.com"></label>
+                </div>
+                <br>
+                <div class="form-content">
+                    <label>Cell Phone  <span></span><input type="tel" name="phone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-000" required></label>
+                </div>
+                <br>
+                <div class="form-content">
+                    <label>Business Name <span class="required"> * </span><input type="text" name="business" pattern="[A-Za-z]{4,}" required></label>
+                </div>
+                <br>
+                <div class="form-content">
+                    <label>Business Address  <span><input></span></label>
+                </div>
+                <br>
+                <div class="form-content">
+                    <label>Business Website  <span><input></span></label>
+                </div>
+                <br>
+                <div class="form-content">
+                    <label>Business Description: </label>
+                </div>
+                <br>
+                <div class="form-content">
+                    <label class="description"><textarea name="description" rows="3" placeholder="Insert Description Here"></textarea></label>
+                </div>
+                <br>
+                <div class="form-content">Membership Level</div>
+                <br>
+                <div class="form-content">
+                    <label class="sbs"><input type="radio" name="memberlevel" value="non-profit">Non-profit ($100)</label> <br>
+                    <label class="sbs"><input type="radio" name="memberlevel" value="bronze">Bronze ($200)</label> <br>
+                    <label class="sbs"><input type="radio" name="memberlevel" value="silver">Silver ($400)</label> <br>
+                    <label class="sbs"><input type="radio" name="memberlevel" value="gold">Gold ($1000)</label>
+                </div>
+                <br>
+            </fieldset>
+            <br>
+            <!-- <button class="join-button" onclick="location.href='thanks.html'">JOIN</button> -->
+            <div class="button-div">
+                <input type="submit" value="Submit" class="submitBtn">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>208-523-1010 | <a class="attribution" href="attribution.html">Attribution Page</a></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

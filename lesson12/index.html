@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>IF Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav class="main-nav" id="main-navigation">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()" class="menu-button">&#9776; Menu</a></li>
+            <img class="nav-logo" src="./images/logo.jpg" alt="navigation bar logo">
+            <li class="active-page"><a href="index.html">Home</a></li>
+            <li><a href="city.html">Idaho Falls</a></li>
+            <li><a href="join.html">Membership</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <br>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./images/Highlight1.jpg" style="width: 100%">
+                <div class="text">Spotlight 1</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./images/Highlight2.jpg" style="width: 100%">
+                <div class="text">Spotlight 2</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./images/Highlight3.jpg" style="width: 100%">
+                <div class="text">Spotlight 3</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          <br>
+          <div class="side-by-side">
+            <div>
+                <h2>Our Purpose</h2>
+                <p>The Greater Idaho Falls Chamber of Commerce creates a foundation for its members by being the 
+                    leading business resource for networking, advocacy, and education. We work together with 
+                    businesses to create and protect a competitive advantage for business in the greater Idaho 
+                    Falls area. The Chamber creates opportunities for your business through our many services 
+                    and programs.</p>
+                <button class="join-button" onclick="location.href='join.html'">JOIN</button>
+            </div>
+            
+            <div class="slideshow-container-2">
+                <div class="town-carousel fade">
+                    <div class="numbertext"></div>
+                    <img src="./images/local.jpeg" style="width: 100%">
+                </div>
+                <div class="town-carousel fade">
+                    <div class="numbertext"></div>
+                    <img src="./images/local2.jpeg" style="width: 100%">
+                </div>
+                <div class="town-carousel fade">
+                    <div class="numbertext"></div>
+                    <img src="./images/local3.jpeg" style="width: 100%">
+                </div>
+                <a class="prev2" onclick="plusPhotos(-1)">&#10094;</a>
+                <a class="next2" onclick="plusPhotos(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="circle" onclick="currentPhoto(1)"></span>
+                <span class="circle" onclick="currentPhoto(2)"></span>
+                <span class="circle" onclick="currentPhoto(3)"></span>
+            </div>
+        </div>
+        <br>
+        <div class="side-by-side">
+            <div class="weather-forecast">
+                <div class="weather blue-bg">
+                    <div id="weather-content" class="section-content">
+                        <h2 class="section-heading">Weather Forecast</h2>
+                        <div class="divider"></div>
+                        <h3 class="weather-heading">Currently</h3>
+                        <div class="currently-box">
+                            <p class="currently">Temperature: <span id="temp"></span>&deg;F</p>
+                            <p class="currently">Condition: <span id="condition"></span></p>
+                            <p class="currently">Humidity: <span id="humidity"></span>%</p>
+                        </div>
+                        <h3 class="weather-heading">3-Day Forecast</h3>
+                        <div class="weather-boxes">
+                            <div class="weather-box">
+                                <span id="forecast-day-1" class="forecast-day"></span>
+                                <span id="forecast-temp-1" class="forecast-temp"></span>
+                            </div>
+                            <div class="weather-box">
+                                <span id="forecast-day-2"></span>
+                                <span id="forecast-temp-2" class="forecast-temp"></span>
+                            </div>
+                            <div class="weather-box">
+                                <span id="forecast-day-3"></span>
+                                <span id="forecast-temp-3" class="forecast-temp"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="local-events">
+                <h2>Upcoming Events</h2>
+                <p><b>DECEMBER</b></p>
+                <p><b>09 - </b>Chamber Blood Drive: 1:00-6:00 PM</p>
+                <p><b>12 - </b>1st Annual Yule Ball: Masquerade: 6:00-11:00 PM</p>
+                <p><b>15 - </b>Hope Lunch</p>
+                <p><b>17 - </b>Bucked Up Ribbon Cutting: 12:00-1:00 PM</p>
+                <p><b>18 - </b>Downtown Horse Drawn Trolly Rides: 1:00PM-12:00AM</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>208-523-1010 | <a class="attribution" href="attribution.html">Attribution Page</a></p> 
+        <p id="last-updated"></p>
+        <a href="https://www.facebook.com/"><img class="social-media" src="./images/fb2.png" alt="facebook icon"></a>
+        <a href="https://www.instagram.com/"><img class="social-media" src="./images/insta2.png" alt="instagram icon"></a>
+    </footer>
+    <script src="main.js"></script>
+    <script src="update.js"></script>
+</body>
+</html>
