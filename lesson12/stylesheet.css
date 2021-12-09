@@ -364,6 +364,12 @@ li:hover {
     width: 25%;
     height: auto;
   }
+
+  .side-by-side {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
 }
 
 /* MEDIUM */
