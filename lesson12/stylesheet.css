@@ -8,6 +8,11 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.logo-spot {
+  background-color: #073b4c;
+  padding-left: 20px;
+}
+
 main {
   margin: 50px;
 }
