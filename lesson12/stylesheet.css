@@ -359,6 +359,11 @@ li:hover {
     border-top: 3px solid #D74E09;
     border-bottom: 3px solid #D74E09;
   }
+
+  .hero-image {
+    width: 25%;
+    height: auto;
+  }
 }
 
 /* MEDIUM */
