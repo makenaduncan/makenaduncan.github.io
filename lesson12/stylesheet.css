@@ -370,6 +370,24 @@ li:hover {
     grid-template-columns: 1fr;
   }
 
+  footer {
+    background-color: #073b4c;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 40px;
+    display: flex;
+  }
+
+  .last-updated {
+    margin-left: 50px;
+  }
+  
+  .right {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+  }
+
 }
 
 /* MEDIUM */
